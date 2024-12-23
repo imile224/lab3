@@ -71,9 +71,9 @@ while not successful_login:
 
                 # Determine the status based on attendance text
                 if attendance_text == "i/e":
-                    status = "Student attended the class."
+                    status = "İştirak edib"
                 elif attendance_text == "q/b":
-                    status = "Student did not attend the class."
+                    status = "İştirak etməyib."
                 else:
                     status = f"Unknown status: {attendance_text}"
 
